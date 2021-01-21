@@ -1,5 +1,8 @@
 [package]
 name = "crabkeyduck"
+license = "MPL-2.0"
+repository = "https://github.com/coolshaurya/crabkeyduck/"
+readme = "README.md"
 version = "0.1.0"
 authors = ["Shaurya Shubham <shauryashubham1234567890@gmail.com>"]
 edition = "2018"
