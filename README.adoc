@@ -13,6 +13,10 @@ image::https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod&styl
 
 This is a WIP asciidoc parser in Rust.
 
+== TODO
+
+* [ ] Basically everything right now 😄
+
 == Licensing 
 
 This project is licensed under the Mozilla Public License 2.0
