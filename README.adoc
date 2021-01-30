@@ -19,9 +19,11 @@ image::https://img.shields.io/docsrs/crabkeyduck[Latest docs]
 
 This is a WIP asciidoc parser in Rust.
 
-== TODO
+== Todo
 
-* [ ] Basically everything right now 😄
+* [ ] The lexer
+* [ ] The parser
+* [ ] Converter(s)
 
 == Licensing 
 
