@@ -1,4 +1,4 @@
-#[derive(Debug, Clone, Copy)]
+#[derive(Debug, Clone, Copy, PartialEq)]
 enum Token<'a> {
     Text(&'a str),
     BoldDelimiter,
@@ -10,14 +10,14 @@ enum Token<'a> {
 fn lex(raw: &str) -> Vec<Token> {
     let mut tokens = Vec::new();
     let mut anchor: usize = 0;
-    let iter = raw.char_indices().peekable();
-    for (i, ch) in iter {
+    let mut iter = raw.char_indices().peekable();
+    while let Some((i, ch)) = iter.next() {
         match ch {
-            delim @ '*' | '_' | '`' | '#' => {
+            '*' | '_' | '`' | '#' => {
                 if anchor != i {
-                    tokens.push(Token::Text(raw[anchor..i]));
+                    tokens.push(Token::Text(&raw[anchor..i]));
                 }
-                tokens.push(match delim {
+                tokens.push(match ch {
                     '*' => Token::BoldDelimiter,
                     '_' => Token::ItalicsDelimiter,
                     '`' => Token::MonospaceDelimiter,
@@ -30,10 +30,28 @@ fn lex(raw: &str) -> Vec<Token> {
             }
             _other => {
                 if iter.peek().is_none() {
-                    tokens.push(Token::Text(raw[anchor..]));
+                    tokens.push(Token::Text(&raw[anchor..]));
                 }
             }
         }
     }
     tokens
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn lexer_works() {
+        let text = "I am _really_ excited.";
+        let expected = vec![
+            Token::Text("I am "),
+            Token::ItalicsDelimiter,
+            Token::Text("really"),
+            Token::ItalicsDelimiter,
+            Token::Text(" excited."),
+        ];
+        assert_eq!(lex(text), expected);
+    }
 }
