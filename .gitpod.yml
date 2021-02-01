@@ -1,3 +1,2 @@
 tasks:
-  - init: cargo build
-    command: cargo watch -x run
+  - init: 'rustup component add rustfmt clippy'
