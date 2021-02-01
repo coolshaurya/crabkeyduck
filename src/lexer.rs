@@ -3,7 +3,7 @@ enum Token<'a> {
     Text(&'a str),
     BoldDelimiter,
     ItalicsDelimiter,
-    MonoSpaceDelimiter,
+    MonospaceDelimiter,
     HighlightDelimiter,
 }
 
