@@ -3,17 +3,23 @@
 
 image::{wip-badge-img}[WIP: Work In Progress]
 
+[link=https://docs.rs/crabkeyduck]
+image::https://img.shields.io/docsrs/crabkeyduck?style=for-the-badge&color=green[Latest docs]
+
 [link=https://crates.io/crabkeyduck]
-image::https://img.shields.io/crates/v/crabkeyduck?style=for-the-badge[Crates.io]
+image::https://img.shields.io/crates/v/crabkeyduck?style=for-the-badge&color=green[Crates.io]
 
 [link=https://github.com/coolshaurya/crabkeyduck/blob/master/LICENSE]
-image::https://img.shields.io/github/license/coolshaurya/crabkeyduck?style=for-the-badge[LICENSE]
+image::https://img.shields.io/github/license/coolshaurya/crabkeyduck?style=for-the-badge&color=green[LICENSE]
+
+[link=https://github.com/coolshaurya/crabkeyduck]
+image::https://img.shields.io/badge/Github-coolshaurya/crabkeyduck-blue?style=for-the-badge[Github: coolshaurya/crabkeyduck]
+
+[link=https://github.com/coolshaurya/crabkeyduck/commits/master]
+image:https://img.shields.io/github/last-commit/coolshaurya/crabkeyduck?label=Last%20commit%20on%20GitHub&color=blue&style=for-the-badge[Github commits]
 
 [link=https://gitpod.io/#https://github.com/coolshaurya/crabkeyduck]
-image::https://img.shields.io/badge/Gitpod-Open_workspace-blue?logo=gitpod&style=for-the-badge[Gitpod: Open workspace]
-
-[link=https://docs.rs/crabkeyduck]
-image::https://img.shields.io/docsrs/crabkeyduck?style=for-the-badge[Latest docs]
+image::https://img.shields.io/badge/Gitpod-Open_workspace-2cb6e0?logo=gitpod&style=for-the-badge[Gitpod: Open workspace]
 
 {sp}
 
