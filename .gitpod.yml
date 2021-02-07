@@ -1,2 +1,2 @@
 tasks:
-  - init: rustup component add rustfmt clippy
+  - before: rustup component add rustfmt clippy
