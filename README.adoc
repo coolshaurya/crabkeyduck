@@ -27,8 +27,9 @@ This is a WIP asciidoc parser in Rust.
 
 == Todo
 
-* [ ] The lexer
-* [ ] The parser
+* [ ] Parser
+** [ ] Header parsing
+** [ ] Block parsing
 * [ ] Converter(s)
 
 == Licensing 
