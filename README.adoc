@@ -18,9 +18,6 @@ image::https://img.shields.io/badge/Github-coolshaurya/crabkeyduck-blue?style=fo
 [link=https://github.com/coolshaurya/crabkeyduck/commits/master]
 image:https://img.shields.io/github/last-commit/coolshaurya/crabkeyduck?label=Last%20commit%20on%20GitHub&color=blue&style=for-the-badge[Github commits]
 
-[link=https://gitpod.io/#https://github.com/coolshaurya/crabkeyduck]
-image::https://img.shields.io/badge/Gitpod-Open_workspace-2cb6e0?logo=gitpod&style=for-the-badge[Gitpod: Open workspace]
-
 {sp}
 
 This is a WIP asciidoc parser in Rust.
