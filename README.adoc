@@ -6,7 +6,7 @@ image::https://img.shields.io/badge/⚠️WIP-Work%20in%20Progress-red?style=for
 [link=https://docs.rs/crabkeyduck]
 image::https://img.shields.io/docsrs/crabkeyduck?style=for-the-badge&color=green[Latest docs]
 
-[link=https://crates.io/crabkeyduck]
+[link=https://crates.io/crates/crabkeyduck]
 image::https://img.shields.io/crates/v/crabkeyduck?style=for-the-badge&color=green[Crates.io]
 
 [link=https://github.com/coolshaurya/crabkeyduck/blob/master/LICENSE]
